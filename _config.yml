@@ -14,7 +14,7 @@
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
 title: Secalytica
-masthead_title: "Masthead Title"
+masthead_title: "Secalytica"
 subtitle: "Where data meets defense"
 logo: "/assets/images/bio-photo.jpg"
 email: 
@@ -24,7 +24,7 @@ description: >- # this means to ignore newlines until "baseurl:"
   Google search results) and in your feed.xml site description.
 #twitter_username: username
 github_username: secalytica
-minimal_mistakes_skin: dark
+minimal_mistakes_skin: default
 #search: true
 breadcrumbs: true 
 
@@ -33,7 +33,7 @@ markdown: kramdown
 remote_theme: mmistakes/minimal-mistakes
 # Outputting
 permalink: /:categories/:title/
-paginate: 0 # amount of posts to show
+paginate: 5 # amount of posts to show
 paginate_path: /page:num/
 timezone: # https://en.wikipedia.org/wiki/List_of_tz_database_time_zones
 
