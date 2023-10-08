@@ -13,7 +13,7 @@ header:
   caption: "Photo credit: [**Unsplash**](https://unsplash.com)"
 excerpt: "Bacon ipsum dolor sit amet salami ham hock ham, hamburger corned beef short ribs kielbasa biltong t-bone drumstick tri-tip tail sirloin pork chop."
 intro: 
-  - excerpt: 'Our mission is to empower organizations to safeguard their digital assets and infrastructure by harnessing the power of data-driven security analytics. We are dedicated to providing cutting-edge solutions that enable our clients to stay one step ahead of cyber threats and vulnerabilities. With a relentless commitment to innovation and a deep understanding of the evolving threat landscape, we strive to be the trusted partner that helps our clients defend their data and maintain the integrity of their operations. “Where data meets defense” is not just a tagline; it’s the essence of our purpose, as we work tirelessly to protect what matters most to our clients in an increasingly interconnected world. `type="center"`'
+  - excerpt: 'Our mission is to empower organizations to safeguard their digital assets and infrastructure by harnessing the power of data-driven security analytics. We are dedicated to providing cutting-edge solutions that enable our clients to stay one step ahead of cyber threats and vulnerabilities. With a relentless commitment to innovation and a deep understanding of the evolving threat landscape, we strive to be the trusted partner that helps our clients defend their data and maintain the integrity of their operations. “Where data meets defense” is not just a tagline; it’s the essence of our purpose, as we work tirelessly to protect what matters most to our clients in an increasingly interconnected world.'
 feature_row:
   - image_path: /assets/images/jefferson-santos-9SoCnyQmkzI-unsplash.jpg
     alt: "placeholder image 1"
@@ -30,39 +30,8 @@ feature_row:
   - image_path: /assets/images/jefferson-santos-9SoCnyQmkzI-unsplash.jpg
     title: "Placeholder 3"
     excerpt: "This is some sample content that goes here with **Markdown** formatting."
-feature_row2:
-  - image_path: /assets/images/jefferson-santos-9SoCnyQmkzI-unsplash.jpg
-    alt: "placeholder image 2"
-    title: "Placeholder Image Left Aligned"
-    excerpt: 'This is some sample content that goes here with **Markdown** formatting. Left aligned with `type="left"`'
-    url: "#test-link"
-    btn_label: "Read More"
-    btn_class: "btn--primary"
-feature_row3:
-  - image_path: /assets/images/jefferson-santos-9SoCnyQmkzI-unsplash.jpg
-    alt: "placeholder image 2"
-    title: "Placeholder Image Right Aligned"
-    excerpt: 'This is some sample content that goes here with **Markdown** formatting. Right aligned with `type="right"`'
-    url: "#test-link"
-    btn_label: "Read More"
-    btn_class: "btn--primary"
-feature_row4:
-  - image_path: /assets/images/jefferson-santos-9SoCnyQmkzI-unsplash.jpg
-    alt: "placeholder image 2"
-    title: "Placeholder Image Center Aligned"
-    excerpt: 'This is some sample content that goes here with **Markdown** formatting. Centered with `type="center"`'
-    url: "#test-link"
-    btn_label: "Read More"
-    btn_class: "btn--primary"
 ---
 
 {% include feature_row id="intro" type="center" %}
 
 {% include feature_row %}
-
-{::comment}{% include feature_row id="feature_row2" type="left" %}
-
-{% include feature_row id="feature_row3" type="right" %}
-
-{% include feature_row id="feature_row4" type="center" %}
-{::/comment}
